@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>TirthYatra</title>
+    <link rel="stylesheet" href="yatra.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">YATRA</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>contact Us</li>
+        </ul>
+        <img src="toggle.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>World Says Just Explore Me</h2>
+            <div class="line"></div>
+            <h1>A TirthYatra</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="haridwar.jpg" alt="">
+                <h4>Haridwar Yatra</h4>
+                <p>Situated along the holy Ganga, which is famous for its temples and ghats.</p> 
+                <a href="#" class="ctn">Learn More</a>          
+            </div>
+            <div class="col">
+                <img src="vaishno.jpg" alt="">
+                <h4>Vaishno Devi Yatra</h4>
+                <p>the temple is one of the 108 Shakti Peethas dedicated to Durga, who is worshipped as Vaishno Devi.</p> 
+                <a href="#" class="ctn">Learn More</a>          
+            </div>
+        </div>
+    </section>    
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Everytime you visit to a  new place it's one more thing to add on your experience.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>SOME EXPLORED DESTINATIONS</h1>
+                <div class="line"></div>
+                <P>There are some places that are already visited, which includes "Maihar Devi temmple in M.P", "Ramghat in Chitrkoot U.P", "Sati Anushuiya", "Panna Reserve Forest".</P>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="maihar.jpg" alt="">
+                    <img src="ramghat.jpg" alt="">
+                    <img src="sati.jpg" alt="">
+                    <img src="panna.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Fatehpur, U.P, India | Phone: 8957182517 | Email: budhyani93050@gmail.com</p>
+        <p>Copyright @ 2021 TirthYatra</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
